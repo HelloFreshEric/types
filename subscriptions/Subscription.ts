@@ -1,0 +1,66 @@
+import { Nullable } from './Nullable';
+import { Customer } from './Customer';
+import { Product } from './Product';
+import { ProductType } from './ProductType';
+import { Address } from './Address';
+import { DeliveryOption  } from './DeliveryOption';
+import { VoucherInfo } from './VoucherInfo';
+
+// TODO: Fix this type
+type $TSFixMe = any;
+
+
+export type Subscription = {
+    customer: Customer;
+    product: Product;
+    productType: ProductType;
+    shippingAddress: Address;
+    billingAddress: Address;
+    deliveryWeekday: number;
+    deliveryInterval: number;
+    deliveryStart: string;
+    deliveryTime: string;
+    canceledAt: string;
+    pausedAt?: string;
+    isBlocked: boolean;
+    couponCode?: string;
+    paymentGateway: string;
+    paymentMethod?: string;
+    firstBoxDelivered: boolean;
+    allowSelfReactivation: boolean;
+    presetIsEnabled: boolean;
+    maintainedSku?: Nullable<string>;
+    maintainedDeliveryWeekday?: Nullable<string>;
+    maintainedDeliveryTime?: Nullable<string>;
+    maintainedDeliveryInterval?: Nullable<string>;
+    extras?: $TSFixMe;
+    preset: string;
+    isAutoConvertDisabled: boolean;
+    convertsToData?: $TSFixMe;
+    isActive: boolean;
+    nextDelivery?: string;
+    nextDeliveryWeek?: string;
+    nextDeliveryTime?: string;
+    nextCutoffDate?: string;
+    nextModifiableDeliveryDate?: string;
+    nextModifiableDeliveryWeek?: string;
+    weekWithLatestMenu: string;
+    createdAt: string;
+    nextDeliveryOption?: DeliveryOption;
+    deliveryOption: DeliveryOption;
+    experiments: Record<string, boolean>;
+    voucherInfo?: VoucherInfo;
+    endlessPausedAt?: Nullable<string>;
+    endlessPauseInterval?: number;
+    paymentToken?: $TSFixMe;
+    ptsTokenId?: string;
+    firstDeliveryDate: string;
+    firstDeliveryWeek?: string;
+    lastReactivationDate?: string;
+    reactivationCount: number;
+    reactivationNextCutoffDate?: string;
+    cancellationReasons?: $TSFixMe;
+    link?: Nullable<string>;
+    id: string;
+    updatedAt: string;
+};
