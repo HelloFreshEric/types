@@ -1,4 +1,4 @@
-import {  } from '@hellofresh/types/auth';
+import {  } from '../auth';
 
 export type AddressCountry = {
     iso2Code: string;
