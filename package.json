@@ -2,13 +2,12 @@
     "name": "@hellofresh/types",
     "version": "1.0.0",
     "license": "MIT",
-    "dependencies": {
+    "devDependencies": {
         "typescript": "^4.9.4"
     },
     "exports" : {
-        ".": "file:./src",
-        "./auth": "file:./src/auth",
-        "./customers": "file:./src/customers",
-        "./subscriptions": "file/./src/subscriptions"
+        "./auth": "file:./src/auth/index.ts",
+        "./customers": "file:./src/customers/index.ts",
+        "./subscriptions": "file/./src/subscriptions/index.ts"
     }
 }
