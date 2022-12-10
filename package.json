@@ -6,8 +6,8 @@
         "typescript": "^4.9.4"
     },
     "exports" : {
-        "./auth": "file:./src/auth/index.ts",
-        "./customers": "file:./src/customers/index.ts",
-        "./subscriptions": "file/./src/subscriptions/index.ts"
+        "./auth": "file:./auth/index.ts",
+        "./customers": "file:./customers/index.ts",
+        "./subscriptions": "file/./subscriptions/index.ts"
     }
 }
