@@ -3,6 +3,7 @@ export * from './AddressRegion';
 export * from './Customer';
 export * from './CustomerAddress';
 export * from './CustomerAddresses';
+export * from './CustomerDeliveries';
 export * from './Delivery';
 export * from './Order';
 export * from './PaymentDetails';
