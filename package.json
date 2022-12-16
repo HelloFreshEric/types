@@ -4,10 +4,5 @@
     "license": "MIT",
     "devDependencies": {
         "typescript": "^4.9.4"
-    },
-    "exports" : {
-        "./auth": "file:./auth/index.ts",
-        "./customers": "file:./customers/index.ts",
-        "./subscriptions": "file/./subscriptions/index.ts"
     }
 }
